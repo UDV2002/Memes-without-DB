@@ -1,0 +1,12 @@
+C:\Users\Пользователь\Source\Repos\Mems\Mems\bin\Debug\Mems.exe.config
+C:\Users\Пользователь\Source\Repos\Mems\Mems\bin\Debug\Mems.exe
+C:\Users\Пользователь\Source\Repos\Mems\Mems\bin\Debug\Mems.pdb
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.Mems.resources
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.Opin.resources
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.Properties.Resources.resources
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.SocRating.resources
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.csproj.GenerateResource.cache
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.exe
+C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.pdb
