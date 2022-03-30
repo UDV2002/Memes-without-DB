@@ -29,7 +29,7 @@ namespace Mems
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridViewOpin = new System.Windows.Forms.DataGridView();
             this.Mem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.Label();
@@ -39,22 +39,22 @@ namespace Mems
             // 
             // dataGridViewOpin
             // 
-            this.dataGridViewOpin.BackgroundColor = System.Drawing.SystemColors.ControlDark;
+            this.dataGridViewOpin.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dataGridViewOpin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewOpin.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Mem});
             this.dataGridViewOpin.ImeMode = System.Windows.Forms.ImeMode.Alpha;
-            this.dataGridViewOpin.Location = new System.Drawing.Point(12, 94);
+            this.dataGridViewOpin.Location = new System.Drawing.Point(14, 98);
             this.dataGridViewOpin.Name = "dataGridViewOpin";
             this.dataGridViewOpin.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewOpin.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewOpin.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewOpin.RowHeadersWidth = 51;
             this.dataGridViewOpin.RowTemplate.Height = 24;
             this.dataGridViewOpin.Size = new System.Drawing.Size(352, 389);
@@ -80,19 +80,21 @@ namespace Mems
             // 
             // OpinExit
             // 
+            this.OpinExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.OpinExit.Font = new System.Drawing.Font("Century", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.OpinExit.Location = new System.Drawing.Point(12, 507);
             this.OpinExit.Name = "OpinExit";
             this.OpinExit.Size = new System.Drawing.Size(348, 46);
             this.OpinExit.TabIndex = 2;
             this.OpinExit.Text = "Выход";
-            this.OpinExit.UseVisualStyleBackColor = true;
+            this.OpinExit.UseVisualStyleBackColor = false;
             this.OpinExit.Click += new System.EventHandler(this.OpinExit_Click);
             // 
             // Opin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(378, 554);
             this.Controls.Add(this.OpinExit);
             this.Controls.Add(this.name);
@@ -108,10 +110,9 @@ namespace Mems
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridViewOpin;
         private System.Windows.Forms.DataGridViewTextBoxColumn Mem;
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.Button OpinExit;
+        public System.Windows.Forms.DataGridView dataGridViewOpin;
     }
 }

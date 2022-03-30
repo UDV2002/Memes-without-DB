@@ -10,3 +10,14 @@ C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.csproj.G
 C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.csproj.CoreCompileInputs.cache
 C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.exe
 C:\Users\Пользователь\Source\Repos\Mems\Mems\obj\Debug\Mems.pdb
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\bin\Debug\Mems.exe.config
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\bin\Debug\Mems.exe
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\bin\Debug\Mems.pdb
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.csproj.AssemblyReference.cache
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.Mems.resources
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.Opin.resources
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.Properties.Resources.resources
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.csproj.GenerateResource.cache
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.csproj.CoreCompileInputs.cache
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.exe
+C:\Users\Регина\Source\Repos\Memes-without-DB\Mems\obj\Debug\Mems.pdb

@@ -35,24 +35,21 @@ namespace Mems
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel = new System.Windows.Forms.Panel();
-            this.SocOpinion = new System.Windows.Forms.Button();
             this.opinion = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureLeft = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureRight)).BeginInit();
             this.panel.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLeft)).BeginInit();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureRight
             // 
-            this.pictureRight.Location = new System.Drawing.Point(19, 20);
+            this.pictureRight.Location = new System.Drawing.Point(568, 119);
             this.pictureRight.Name = "pictureRight";
-            this.pictureRight.Size = new System.Drawing.Size(300, 248);
+            this.pictureRight.Size = new System.Drawing.Size(450, 442);
             this.pictureRight.TabIndex = 0;
             this.pictureRight.TabStop = false;
             this.pictureRight.Click += new System.EventHandler(this.picRightClick);
@@ -61,7 +58,7 @@ namespace Mems
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Lucida Sans Unicode", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(267, 22);
+            this.label4.Location = new System.Drawing.Point(318, 21);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(325, 34);
             this.label4.TabIndex = 5;
@@ -71,7 +68,7 @@ namespace Mems
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(258, 67);
+            this.label5.Location = new System.Drawing.Point(320, 68);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(334, 24);
             this.label5.TabIndex = 6;
@@ -80,88 +77,86 @@ namespace Mems
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(361, 195);
+            this.label6.Font = new System.Drawing.Font("Mistral", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(484, 267);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 69);
+            this.label6.Size = new System.Drawing.Size(78, 71);
             this.label6.TabIndex = 7;
             this.label6.Text = "VS";
             // 
             // panel
             // 
-            this.panel.Controls.Add(this.SocOpinion);
             this.panel.Controls.Add(this.opinion);
             this.panel.Controls.Add(this.Exit);
-            this.panel.Location = new System.Drawing.Point(12, 481);
+            this.panel.Location = new System.Drawing.Point(21, 646);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(838, 53);
+            this.panel.Size = new System.Drawing.Size(997, 53);
             this.panel.TabIndex = 8;
-            // 
-            // SocOpinion
-            // 
-            this.SocOpinion.Font = new System.Drawing.Font("Century", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SocOpinion.Location = new System.Drawing.Point(595, 11);
-            this.SocOpinion.Name = "SocOpinion";
-            this.SocOpinion.Size = new System.Drawing.Size(222, 30);
-            this.SocOpinion.TabIndex = 2;
-            this.SocOpinion.Text = "Общий рейтинг";
-            this.SocOpinion.UseVisualStyleBackColor = true;
-            this.SocOpinion.Click += new System.EventHandler(this.SocOpinion_Click);
             // 
             // opinion
             // 
+            this.opinion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.opinion.Font = new System.Drawing.Font("Century", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.opinion.Location = new System.Drawing.Point(312, 11);
+            this.opinion.Location = new System.Drawing.Point(532, 11);
             this.opinion.Name = "opinion";
-            this.opinion.Size = new System.Drawing.Size(256, 31);
+            this.opinion.Size = new System.Drawing.Size(449, 31);
             this.opinion.TabIndex = 1;
             this.opinion.Text = "Мой рейтинг";
-            this.opinion.UseVisualStyleBackColor = true;
+            this.opinion.UseVisualStyleBackColor = false;
             this.opinion.Click += new System.EventHandler(this.opinion_Click);
             // 
             // Exit
             // 
+            this.Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Exit.Font = new System.Drawing.Font("Century", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Exit.Location = new System.Drawing.Point(21, 11);
+            this.Exit.Location = new System.Drawing.Point(18, 11);
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(260, 32);
+            this.Exit.Size = new System.Drawing.Size(458, 32);
             this.Exit.TabIndex = 0;
             this.Exit.Text = "Выход";
-            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.UseVisualStyleBackColor = false;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
-            // panel2
+            // label2
             // 
-            this.panel2.Controls.Add(this.pictureLeft);
-            this.panel2.Location = new System.Drawing.Point(33, 107);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(322, 354);
-            this.panel2.TabIndex = 9;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(564, 591);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 23);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "label2";
             // 
             // pictureLeft
             // 
-            this.pictureLeft.Location = new System.Drawing.Point(20, 20);
+            this.pictureLeft.Location = new System.Drawing.Point(12, 119);
             this.pictureLeft.Name = "pictureLeft";
-            this.pictureLeft.Size = new System.Drawing.Size(280, 248);
+            this.pictureLeft.Size = new System.Drawing.Size(474, 442);
             this.pictureLeft.TabIndex = 0;
             this.pictureLeft.TabStop = false;
             this.pictureLeft.Click += new System.EventHandler(this.picLeftClick);
             // 
-            // panel3
+            // label1
             // 
-            this.panel3.Controls.Add(this.pictureRight);
-            this.panel3.Location = new System.Drawing.Point(483, 107);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(335, 354);
-            this.panel3.TabIndex = 10;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(35, 591);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(71, 23);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
             // 
             // Mems
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(862, 546);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.ClientSize = new System.Drawing.Size(1030, 721);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureRight);
+            this.Controls.Add(this.pictureLeft);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -173,9 +168,7 @@ namespace Mems
             this.Text = "Mems";
             ((System.ComponentModel.ISupportInitialize)(this.pictureRight)).EndInit();
             this.panel.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureLeft)).EndInit();
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,12 +181,11 @@ namespace Mems
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel;
-        private System.Windows.Forms.Button SocOpinion;
         private System.Windows.Forms.Button opinion;
         private System.Windows.Forms.Button Exit;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureLeft;
+        private System.Windows.Forms.Label label1;
     }
 }
 
