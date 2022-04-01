@@ -36,6 +36,9 @@ namespace Mems
         
         private void Init()
         {
+            Diskl disk = new Diskl();
+            disk.ShowDialog();
+
             MessageBox.Show($"На данный момент в программе представлены картинки в количестве: {imagesAmount}");
 
             for (int i = 0; i < imagesAmount; i ++) 
@@ -47,7 +50,7 @@ namespace Mems
 
             LabelAndRating one = new LabelAndRating();
             one.id = 1;
-            one.label = "Запомните, твари";
+            one.label = "Игра в татара";
             one.count = 0;
             LabelAndRating two = new LabelAndRating();
             two.id = 2;
@@ -55,7 +58,7 @@ namespace Mems
             two.count = 0;
             LabelAndRating three = new LabelAndRating();
             three.id = 3;
-            three.label = "Домик на стипу";
+            three.label = "Смайлик";
             three.count = 0;
             LabelAndRating four = new LabelAndRating();
             four.id = 4;
@@ -71,7 +74,7 @@ namespace Mems
             six.count = 0;
             LabelAndRating seven = new LabelAndRating();
             seven.id = 7;
-            seven.label = "Зарядка на весь день";
+            seven.label = "Дедлайн";
             seven.count = 0;
             LabelAndRating eight = new LabelAndRating();
             eight.id = 8;
@@ -79,7 +82,7 @@ namespace Mems
             eight.count = 0;
             LabelAndRating nine = new LabelAndRating();
             nine.id = 9;
-            nine.label = "Б****";
+            nine.label = "Что?";
             nine.count = 0;
             LabelAndRating ten = new LabelAndRating();
             ten.id = 10;
@@ -217,8 +220,8 @@ namespace Mems
             {
                 pictureLeft.Image = (Image)new Bitmap($"11.jpg");
                 label1.Text = "";
-                helper = calllabel[terra].count;
-                calllabel[tempo].count = helper + 1;
+                helper = calllabel[tempo].count;
+                calllabel[terra].count = helper + 1;
                 MessageBox.Show("Картинки закончились");
                 ShowResults();
             }   
@@ -240,8 +243,9 @@ namespace Mems
             else if (border == 0)
             {
                 pictureLeft.Image = (Image)new Bitmap($"11.jpg"); // Тут точно Left?
-                helper = calllabel[tempo].count;
-                calllabel[terra].count = helper + 1;
+                helper = calllabel[terra].count;
+                calllabel[tempo].count = helper + 1;
+               
                 label1.Text = "";
                 MessageBox.Show("Картинки закончились");
                 ShowResults();
